@@ -1,0 +1,26 @@
+# https://trac.ffmpeg.org/wiki/Concatenate
+# in show order
+
+file 'concat/tt.mp4'
+file 'silence3.mp3'
+
+file 'concat/hot.mp4'
+file 'silence3.mp3'
+
+file 'concat/scars.mp4'
+file 'silence3.mp3'
+
+file 'concat/akmu.mp4'
+file 'silence3.mp3'
+
+file 'concat/jiaren.mp4'
+file 'silence3.mp3'
+
+file 'concat/eight.mp4'
+file 'silence3.mp3'
+
+file 'concat/omg.mp4'
+file 'silence3.mp3'
+
+file 'concat/thanks_DO_NOT_DELETE_converted.mp4'
+file 'silence3.mp3'
