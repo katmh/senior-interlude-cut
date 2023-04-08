@@ -51,8 +51,11 @@ if SHOULD_TRIM:
         name = song[0]
         if name.find("thanks") != -1:
             continue
+
         start = song[2]
+        # WARNING: Breaks if start[1] is less than PAD_START
         start = (start[0], start[1] - PAD_START)
+
         end = song[3]
         cmd = f"ffmpeg -ss {to_timestamp(start)} -to {to_timestamp(end)} -i {DOWNLOAD_DIR}/{name}* {TRIM_DIR}/{name}.mp4 &"
         print(cmd)
